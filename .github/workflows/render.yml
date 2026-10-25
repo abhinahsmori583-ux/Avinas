@@ -1,0 +1,51 @@
+name: render
+
+on:
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: Job id
+        required: true
+      resume_url:
+        description: n8n resume URL
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      JOB_ID: ${{ inputs.job_id }}
+      RESUME_URL: ${{ inputs.resume_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-noto-core
+          pip install piper-tts requests
+      - name: Make Hindi voice
+        run: python make_voice.py "jobs/$JOB_ID"
+      - name: Render video
+        run: python render.py "jobs/$JOB_ID"
+      - name: Commit final video
+        run: |
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add "jobs/$JOB_ID/final.mp4"
+          git commit -m "render $JOB_ID"
+          git pull --rebase origin main
+          git push
+      - name: Tell n8n it worked
+        if: success() && env.RESUME_URL != ''
+        run: curl -sS -X POST -H 'Content-Type: application/json' --data @"jobs/$JOB_ID/result.json" "$RESUME_URL"
+      - name: Tell n8n it failed
+        if: failure() && env.RESUME_URL != ''
+        run: |
+          curl -sS -X POST -H 'Content-Type: application/json' --data "{\"job_id\":\"$JOB_ID\",\"ok\":false,\"error\":\"render job failed, see $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID\"}" "$RESUME_URL"
