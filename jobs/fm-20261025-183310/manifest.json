@@ -1,0 +1,50 @@
+{
+  "job_id": "fm-20261025-183310",
+  "script_hi": "क्या आप जानते हैं कि कई लोग ऑनलाइन सामान खरीदने के बाद उसे अक्सर वापस क्यों कर देते हैं? मनोवैज्ञानिकों के अनुसार, इसके पीछे कई रोचक कारण हो सकते हैं। कुछ लोग सिर्फ अनुभव के लिए खरीदारी करते हैं, यानी वे असली चीज़ को छूना और महसूस करना चाहते हैं। इसे 'वर्चुअल शॉपिंग' का विस्तार माना जा सकता है। कई बार, डिलीवरी में देरी या उत्पाद की गलत जानकारी भी वापसी का कारण बनती है। कुछ उपभोक्ता खरीदारी के तुरंत बाद पछतावा महसूस करते हैं, जिसे 'खरीदार का पछतावा' कहते हैं। ऑनलाइन खरीदारी में छूट का लालच भी लोगों को अनावश्यक चीजें खरीदने पर मजबूर कर देता है, जिन्हें बाद में लौटा दिया जाता है। क्या आपने कभी ऐसा किया है?",
+  "subtitle_lines": [
+    "क्या आप जानते हैं",
+    "लोग ऑनलाइन सामान क्यों",
+    "खरीद कर वापस कर देते हैं?",
+    "मनोवैज्ञानिकों के अनुसार,",
+    "कुछ लोग अनुभव के लिए",
+    "खरीदारी करते हैं।",
+    "कई बार, गलत जानकारी",
+    "या देरी भी वजह बनती है।",
+    "कुछ को तुरंत पछतावा होता है।",
+    "छूट का लालच भी",
+    "अनावश्यक चीजें दिलाता है।",
+    "क्या आपने कभी ऐसा किया है?"
+  ],
+  "clips": [
+    {
+      "keyword": "online shopping cart",
+      "url": "https://cdn.pixabay.com/video/2020/05/29/40572-425837205_large.mp4",
+      "page": "https://pixabay.com/videos/id-40572/"
+    },
+    {
+      "keyword": "person unboxing package",
+      "url": "https://cdn.pixabay.com/video/2020/06/30/43459-436106182_large.mp4",
+      "page": "https://pixabay.com/videos/id-43459/"
+    },
+    {
+      "keyword": "person returning package",
+      "url": "https://cdn.pixabay.com/video/2015/10/16/1027-142621279_large.mp4",
+      "page": "https://pixabay.com/videos/id-1027/"
+    },
+    {
+      "keyword": "mind thinking gears",
+      "url": "https://cdn.pixabay.com/video/2024/03/30/206173_large.mp4",
+      "page": "https://pixabay.com/videos/id-206173/"
+    },
+    {
+      "keyword": "money saving discount",
+      "url": "https://cdn.pixabay.com/video/2016/05/12/3192-166352282_large.mp4",
+      "page": "https://pixabay.com/videos/id-3192/"
+    },
+    {
+      "keyword": "disappointed customer",
+      "url": "https://cdn.pixabay.com/video/2021/07/08/80694-572838379_large.mp4",
+      "page": "https://pixabay.com/videos/id-80694/"
+    }
+  ]
+}
