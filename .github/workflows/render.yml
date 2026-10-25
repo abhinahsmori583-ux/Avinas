@@ -37,7 +37,9 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg fonts-noto-core
-          pip install pillow requests
+          python -m pip install --upgrade pip
+          python -m pip install requests piper-tts
+          python -c "import piper; print('piper import ok')"
 
       - name: Make Hindi voice
         run: python make_voice.py "jobs/${JOB_ID}"
@@ -47,8 +49,8 @@ jobs:
 
       - name: Check final video
         run: |
-          test -f "jobs/${JOB_ID}/final.mp4"
           test -s "jobs/${JOB_ID}/final.mp4"
+          test -s "jobs/${JOB_ID}/result.json"
 
       - name: Commit final video
         run: |
@@ -61,16 +63,14 @@ jobs:
 
       - name: Tell n8n it worked
         if: success() && env.RESUME_URL != ''
-        run: |
-          curl -fsS -X POST \
-            -H "Content-Type: application/json" \
-            --data "{\"job_id\":\"${JOB_ID}\",\"ok\":true}" \
-            "$RESUME_URL"
+        run: curl -fsS -X POST -H "Content-Type: application/json" --data @"jobs/${JOB_ID}/result.json" "$RESUME_URL"
 
       - name: Tell n8n it failed
         if: failure() && env.RESUME_URL != ''
         run: |
-          curl -sS -X POST \
-            -H "Content-Type: application/json" \
-            --data "{\"job_id\":\"${JOB_ID}\",\"ok\":false,\"error\":\"Render job failed; check GitHub Actions logs\"}" \
-            "$RESUME_URL" || true
+          python - <<'PY'
+          import json, os
+          url = os.environ['GITHUB_SERVER_URL'] + '/' + os.environ['GITHUB_REPOSITORY'] + '/actions/runs/' + os.environ['GITHUB_RUN_ID']
+          json.dump({'job_id': os.environ['JOB_ID'], 'ok': False, 'error': 'Render job failed. See ' + url}, open('fail.json', 'w'))
+          PY
+          curl -sS -X POST -H "Content-Type: application/json" --data @fail.json "$RESUME_URL" || true
