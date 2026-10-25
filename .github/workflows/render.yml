@@ -63,14 +63,12 @@ jobs:
 
       - name: Tell n8n it worked
         if: success() && env.RESUME_URL != ''
-        run: curl -fsS -X POST -H "Content-Type: application/json" --data @"jobs/${JOB_ID}/result.json" "$RESUME_URL"
+        run: |
+          curl -fsS -X POST -H "Content-Type: application/json" --data @"jobs/${JOB_ID}/result.json" "$RESUME_URL"
 
       - name: Tell n8n it failed
         if: failure() && env.RESUME_URL != ''
         run: |
-          python - <<'PY'
-          import json, os
-          url = os.environ['GITHUB_SERVER_URL'] + '/' + os.environ['GITHUB_REPOSITORY'] + '/actions/runs/' + os.environ['GITHUB_RUN_ID']
-          json.dump({'job_id': os.environ['JOB_ID'], 'ok': False, 'error': 'Render job failed. See ' + url}, open('fail.json', 'w'))
-          PY
+          RUN_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          printf '{"job_id":"%s","ok":false,"error":"Render job failed. See %s"}' "$JOB_ID" "$RUN_URL" > fail.json
           curl -sS -X POST -H "Content-Type: application/json" --data @fail.json "$RESUME_URL" || true
