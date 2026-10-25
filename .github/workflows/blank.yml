@@ -1,0 +1,15 @@
+
+name: FactMantraYT09 Automation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *'
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start workflow
+        run: echo "Workflow started successfully"
+
