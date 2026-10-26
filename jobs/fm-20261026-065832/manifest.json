@@ -1,0 +1,51 @@
+{
+  "job_id": "fm-20261026-065832",
+  "script_hi": "क्या आप जानते हैं कि हमारी आँखें कितनी अद्भुत हैं? हमारी आँखें 10 मिलियन से भी ज़्यादा रंगों को पहचान सकती हैं! यह ब्रह्मांड में सबसे जटिल अंगों में से एक है. आपकी आँखें कभी नहीं बढ़तीं, वे जन्म से लेकर मृत्यु तक एक ही आकार की रहती हैं. इंसान की आँख 576 मेगापिक्सल की होती है, जो इसे किसी भी डिजिटल कैमरे से कहीं ज़्यादा शक्तिशाली बनाती है. हम हर 5 सेकंड में लगभग एक बार पलक झपकते हैं, जिसका मतलब है कि हम दिन में लगभग 28,800 बार पलक झपकते हैं. क्या आपने कभी सोचा है कि आपकी आँखों का रंग कैसे तय होता है?",
+  "subtitle_lines": [
+    "क्या आप जानते हैं",
+    "कि हमारी आँखें",
+    "कितनी अद्भुत हैं?",
+    "हमारी आँखें 10 मिलियन",
+    "से भी ज़्यादा रंगों",
+    "को पहचान सकती हैं!",
+    "आपकी आँखें कभी नहीं बढ़तीं.",
+    "इंसान की आँख 576 मेगापिक्सल",
+    "की होती है.",
+    "हम हर 5 सेकंड",
+    "में एक बार पलक झपकते हैं.",
+    "क्या आपने कभी सोचा है",
+    "कि आँखों का रंग कैसे तय होता है?"
+  ],
+  "clips": [
+    {
+      "keyword": "human eye close up",
+      "url": "https://cdn.pixabay.com/video/2025/11/03/313580_large.mp4",
+      "page": "https://pixabay.com/videos/id-313580/"
+    },
+    {
+      "keyword": "colorful vision spectrum",
+      "url": "https://cdn.pixabay.com/video/2024/03/04/203021-919745637_large.mp4",
+      "page": "https://pixabay.com/videos/id-203021/"
+    },
+    {
+      "keyword": "baby eye vs adult eye",
+      "url": "https://cdn.pixabay.com/video/2020/07/14/44645-439940290_large.mp4",
+      "page": "https://pixabay.com/videos/id-44645/"
+    },
+    {
+      "keyword": "high resolution camera lens",
+      "url": "https://cdn.pixabay.com/video/2026/08/28/372997_large.mp4",
+      "page": "https://pixabay.com/videos/id-372997/"
+    },
+    {
+      "keyword": "person blinking slow motion",
+      "url": "https://cdn.pixabay.com/video/2025/06/03/283533_large.mp4",
+      "page": "https://pixabay.com/videos/id-283533/"
+    },
+    {
+      "keyword": "iris color variations",
+      "url": "https://cdn.pixabay.com/video/2018/03/06/14840-258992148_large.mp4",
+      "page": "https://pixabay.com/videos/id-14840/"
+    }
+  ]
+}
