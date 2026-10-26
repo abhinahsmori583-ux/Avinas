@@ -1,0 +1,50 @@
+{
+  "job_id": "fm-20261026-061259",
+  "script_hi": "क्या आप जानते हैं कि भारत दुनिया का सबसे बड़ा चीनी उत्पादक देश है? साथ ही, भारत चीनी का सबसे बड़ा उपभोक्ता भी है. चीनी उद्योग कृषि-आधारित है और ग्रामीण आजीविका में महत्वपूर्ण भूमिका निभाता है. यह देश की अर्थव्यवस्था में भी बड़ा योगदान देता है. भारत में चीनी मुख्य रूप से गन्ने से बनाई जाती है, जिसकी खेती बड़े पैमाने पर की जाती है. क्या आपको लगता है कि भारत चीनी के निर्यात में भी सबसे आगे है?",
+  "subtitle_lines": [
+    "क्या आप जानते हैं",
+    "भारत दुनिया का सबसे बड़ा",
+    "चीनी उत्पादक देश है?",
+    "साथ ही, यह सबसे बड़ा",
+    "उपभोक्ता भी है.",
+    "चीनी उद्योग कृषि-आधारित",
+    "और ग्रामीण आजीविका में",
+    "महत्वपूर्ण भूमिका निभाता है.",
+    "यह अर्थव्यवस्था में भी",
+    "बड़ा योगदान देता है.",
+    "भारत में चीनी गन्ने से बनती है.",
+    "क्या निर्यात में भी हम आगे हैं?"
+  ],
+  "clips": [
+    {
+      "keyword": "sugar cane fields aerial",
+      "url": "https://cdn.pixabay.com/video/2024/06/10/216058_large.mp4",
+      "page": "https://pixabay.com/videos/id-216058/"
+    },
+    {
+      "keyword": "sugar factory machinery",
+      "url": "https://cdn.pixabay.com/video/2021/10/07/91282-629546524_large.mp4",
+      "page": "https://pixabay.com/videos/id-91282/"
+    },
+    {
+      "keyword": "sugar cubes pouring",
+      "url": "https://cdn.pixabay.com/video/2017/11/28/13100-245530611_large.mp4",
+      "page": "https://pixabay.com/videos/id-13100/"
+    },
+    {
+      "keyword": "indian farmers farming",
+      "url": "https://cdn.pixabay.com/video/2022/11/15/139178-771796365_large.mp4",
+      "page": "https://pixabay.com/videos/id-139178/"
+    },
+    {
+      "keyword": "sugar production process",
+      "url": "https://cdn.pixabay.com/video/2015/09/16/784-139519770_large.mp4",
+      "page": "https://pixabay.com/videos/id-784/"
+    },
+    {
+      "keyword": "global sugar trade map",
+      "url": "https://cdn.pixabay.com/video/2016/09/13/5194-183786499_large.mp4",
+      "page": "https://pixabay.com/videos/id-5194/"
+    }
+  ]
+}
