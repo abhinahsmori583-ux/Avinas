@@ -1,0 +1,50 @@
+{
+  "job_id": "fm-20261026-064614",
+  "script_hi": "क्या आप जानते हैं दुनिया में एक ऐसी जगह है जहाँ सन्नाटा इतना गहरा है कि आप अपनी धड़कनें और खून बहने की आवाज़ भी सुन सकते हैं? यह है माइक्रोसॉफ्ट का एनेकोइक चैंबर, जिसे गिनीज वर्ल्ड रिकॉर्ड्स में दुनिया का सबसे शांत कमरा माना गया है। यह कमरा अमेरिका के वाशिंगटन में माइक्रोसॉफ्ट के मुख्यालय में स्थित है। इसका ध्वनि स्तर माइनस 20.35 डेसिबल तक मापा गया है, जो इंसान की सुनने की क्षमता से भी बहुत कम है। इस कमरे को कंक्रीट और स्टील की कई परतों से बनाया गया है ताकि बाहर की कोई आवाज़ अंदर न आए। यहाँ लोग 45 मिनट से ज़्यादा नहीं रुक पाते क्योंकि अजीब बेचैनी और चक्कर आने लगते हैं। क्या आप इतनी खामोशी सह सकते हैं?",
+  "subtitle_lines": [
+    "क्या आप जानते हैं",
+    "दुनिया में एक ऐसी जगह है?",
+    "जहाँ सन्नाटा इतना गहरा है",
+    "कि आप अपनी धड़कनें सुन सकते हैं!",
+    "यह है माइक्रोसॉफ्ट का",
+    "एनेकोइक चैंबर,",
+    "दुनिया का सबसे शांत कमरा।",
+    "इसका ध्वनि स्तर",
+    "माइनस 20.35 डेसिबल है।",
+    "यहाँ लोग 45 मिनट से",
+    "ज़्यादा नहीं रुक पाते।",
+    "क्या आप इतनी खामोशी सह सकते हैं?"
+  ],
+  "clips": [
+    {
+      "keyword": "anechoic chamber interior",
+      "url": "https://cdn.pixabay.com/video/2019/06/01/24125-340670601_large.mp4",
+      "page": "https://pixabay.com/videos/id-24125/"
+    },
+    {
+      "keyword": "sound absorbing foam",
+      "url": "https://cdn.pixabay.com/video/2024/02/24/201766-916357972_large.mp4",
+      "page": "https://pixabay.com/videos/id-201766/"
+    },
+    {
+      "keyword": "person listening to heartbeat",
+      "url": "https://cdn.pixabay.com/video/2017/03/20/8449-209292163_large.mp4",
+      "page": "https://pixabay.com/videos/id-8449/"
+    },
+    {
+      "keyword": "microsoft campus aerial",
+      "url": "https://cdn.pixabay.com/video/2024/06/10/216058_large.mp4",
+      "page": "https://pixabay.com/videos/id-216058/"
+    },
+    {
+      "keyword": "quiet room",
+      "url": "https://cdn.pixabay.com/video/2022/09/11/130878-748595919_large.mp4",
+      "page": "https://pixabay.com/videos/id-130878/"
+    },
+    {
+      "keyword": "sound waves absorption",
+      "url": "https://cdn.pixabay.com/video/2020/01/05/30902-383991325_large.mp4",
+      "page": "https://pixabay.com/videos/id-30902/"
+    }
+  ]
+}
