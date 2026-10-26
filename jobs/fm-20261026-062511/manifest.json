@@ -1,0 +1,51 @@
+{
+  "job_id": "fm-20261026-062511",
+  "script_hi": "क्या आप जानते हैं कि पाकिस्तान ने ओलंपिक में कुल कितने पदक जीते हैं? पाकिस्तान ने 1948 में ओलंपिक में पहली बार भाग लिया था. उसने कुल 11 ओलंपिक पदक जीते हैं, जिनमें 4 स्वर्ण, 3 रजत और 4 कांस्य पदक शामिल हैं. इन 11 में से 8 पदक हॉकी टीम ने जीते हैं, जिसमें सभी स्वर्ण पदक शामिल हैं. पाकिस्तान का पहला व्यक्तिगत ओलंपिक पदक 1960 रोम ओलंपिक में मोहम्मद बशीर ने कुश्ती में कांस्य पदक जीतकर हासिल किया था. हाल ही में, अरशद नदीम ने पेरिस 2024 ओलंपिक में भाला फेंक में स्वर्ण पदक जीतकर 32 साल बाद पाकिस्तान को पहला ओलंपिक पदक दिलाया. है ना यह दिलचस्प?",
+  "subtitle_lines": [
+    "क्या आप जानते हैं",
+    "पाकिस्तान ने ओलंपिक में",
+    "कितने पदक जीते हैं?",
+    "1948 में पहली बार भाग लिया.",
+    "कुल 11 पदक जीते हैं,",
+    "4 स्वर्ण, 3 रजत, 4 कांस्य.",
+    "8 पदक हॉकी टीम ने जीते.",
+    "पहला व्यक्तिगत पदक 1960 में",
+    "मोहम्मद बशीर ने कुश्ती में जीता.",
+    "अरशद नदीम ने पेरिस 2024 में",
+    "स्वर्ण पदक जीता.",
+    "32 साल बाद पहला पदक.",
+    "है ना यह दिलचस्प?"
+  ],
+  "clips": [
+    {
+      "keyword": "Olympic medals",
+      "url": "https://cdn.pixabay.com/video/2022/06/03/119185-717336689_large.mp4",
+      "page": "https://pixabay.com/videos/id-119185/"
+    },
+    {
+      "keyword": "Pakistan Olympic team",
+      "url": "https://cdn.pixabay.com/video/2016/02/29/2340-157269921_large.mp4",
+      "page": "https://pixabay.com/videos/id-2340/"
+    },
+    {
+      "keyword": "Field hockey stadium",
+      "url": "https://cdn.pixabay.com/video/2024/04/17/208387_large.mp4",
+      "page": "https://pixabay.com/videos/id-208387/"
+    },
+    {
+      "keyword": "Wrestling match",
+      "url": "https://cdn.pixabay.com/video/2022/12/18/143419-782363231_large.mp4",
+      "page": "https://pixabay.com/videos/id-143419/"
+    },
+    {
+      "keyword": "Javelin thrower",
+      "url": "https://cdn.pixabay.com/video/2019/07/06/25001-347024098_large.mp4",
+      "page": "https://pixabay.com/videos/id-25001/"
+    },
+    {
+      "keyword": "Gold medal ceremony",
+      "url": "https://cdn.pixabay.com/video/2023/11/13/189020-884234925_large.mp4",
+      "page": "https://pixabay.com/videos/id-189020/"
+    }
+  ]
+}
