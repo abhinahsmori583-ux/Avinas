@@ -1,0 +1,50 @@
+{
+  "job_id": "fm-20261029-000007",
+  "script_hi": "क्या आप जानते हैं कि दुनिया का सबसे महंगा पदार्थ कौन सा है? शायद आपका जवाब सोना, हीरा या प्लेटिनम होगा, लेकिन आप गलत हैं। दुनिया का सबसे महंगा पदार्थ एंटीमैटर यानी प्रतिपदार्थ है। इसका एक ग्राम बनाने में खरबों डॉलर का खर्च आता है। वैज्ञानिक इसे भविष्य के ईंधन के रूप में देखते हैं, क्योंकि यह भारी मात्रा में ऊर्जा छोड़ता है। इसका उपयोग अंतरिक्ष यान को शक्ति देने और चिकित्सा इमेजिंग में भी किया जा सकता है। लेकिन इसकी उत्पादन लागत और भंडारण की चुनौतियां बहुत बड़ी हैं। क्या आप इस महंगे पदार्थ के बारे में और जानना चाहेंगे?",
+  "subtitle_lines": [
+    "क्या आप जानते हैं",
+    "दुनिया का सबसे महंगा पदार्थ",
+    "कौन सा है?",
+    "यह सोना, हीरा नहीं,",
+    "बल्कि एंटीमैटर है।",
+    "एक ग्राम बनाने में",
+    "खरबों डॉलर लगते हैं।",
+    "यह भविष्य का ईंधन",
+    "और चिकित्सा में भी उपयोगी है।",
+    "लेकिन उत्पादन लागत",
+    "और भंडारण की चुनौती है।",
+    "क्या आप और जानना चाहेंगे?"
+  ],
+  "clips": [
+    {
+      "keyword": "expensive materials gold diamond",
+      "url": "https://cdn.pixabay.com/video/2018/11/10/19260-300109088_large.mp4",
+      "page": "https://pixabay.com/videos/id-19260/"
+    },
+    {
+      "keyword": "antimatter particle accelerator",
+      "url": "https://cdn.pixabay.com/video/2016/09/13/5192-183786490_large.mp4",
+      "page": "https://pixabay.com/videos/id-5192/"
+    },
+    {
+      "keyword": "spacecraft propulsion concept",
+      "url": "https://cdn.pixabay.com/video/2015/08/10/241-135866013_medium.mp4",
+      "page": "https://pixabay.com/videos/id-241/"
+    },
+    {
+      "keyword": "medical imaging technology",
+      "url": "https://cdn.pixabay.com/video/2020/11/02/54087-476532818_large.mp4",
+      "page": "https://pixabay.com/videos/id-54087/"
+    },
+    {
+      "keyword": "futuristic energy source",
+      "url": "https://cdn.pixabay.com/video/2020/03/11/33514-396889776_large.mp4",
+      "page": "https://pixabay.com/videos/id-33514/"
+    },
+    {
+      "keyword": "laboratory research facility",
+      "url": "https://cdn.pixabay.com/video/2023/12/06/192281-892475127_large.mp4",
+      "page": "https://pixabay.com/videos/id-192281/"
+    }
+  ]
+}
